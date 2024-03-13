@@ -1,0 +1,140 @@
+header{
+	display: flex;
+}
+.a , .b{
+	background-color:#848120 ;
+	color: white;
+	font-family:serif;
+}
+.d{
+	align: right ;
+}
+.div2{
+	display: flex;
+	background-color:#ACA82A ;
+}
+.d-flex{
+	height: 50px;
+	width: 550px;
+	padding-top: 15px;
+	padding-left: 50px;
+}
+.div3{
+
+	background-color: white;
+	display: flex;
+	padding-left: 50px;
+}
+select {
+    border: none;
+    outline: none;
+}
+#demo{
+	display: flex;
+}
+.cakes{
+	padding-top: 20px;
+	background-color: #FFE7D5;
+}
+.img1{
+	border-radius: 10%;
+}
+
+img{
+	float: left;
+}
+
+html,body {
+	margin:0 ;
+	padding: 0;
+}
+
+.wrapper{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 60px;
+}
+
+.effect1{
+	background-color: #F9CAD4;
+	border-radius: 50% 50% 50% 50%;
+
+}
+
+.parent{
+	width: 37%;
+	margin: 20px;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	box-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.5) ;
+	border-radius: 10px;
+}
+
+.child{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	transition: all 1.5s;
+}
+
+.bg-one{
+	background-image:  url(https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Same-Day_Web.jpg);
+}
+
+.bg-two{
+	background-image: url(https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Midnight-Delivery_Web.jpg);
+}
+
+.bg-three{
+	background-image: url(https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Bestseller_Web.jpg);
+}
+
+.bg-four{
+	background-image: url(https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/New-Arrival_Web.jpg);
+}
+
+.parent:hover .child {
+	transform: scale(1.1);
+}
+
+.cake{
+	padding-top: 20px;
+	background-color: #FFE7D5;
+}
+
+.wrappers{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 60px;
+}
+.effect2{
+	background-color: #F9CAD4;
+	border-radius: 50% 50% 50% 50%;
+}
+.parents{
+	width: 37%;
+	margin: 20px;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	box-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.5) ;
+	border-radius: 10px;
+}
+
+.parents:hover .child {
+	transform: scale(1.1);
+}
+.bg-ones{
+	background-image:  url(https://www.fnp.com/assets/images/custom/cakes_23/special_occasion/Birthday_web.jpg);
+}
+
+.bg-twos{
+	background-image: url(https://www.fnp.com/assets/images/custom/cakes_23/special_occasion/Anniversary_web.jpg);
+}
